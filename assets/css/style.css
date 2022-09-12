@@ -26,7 +26,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     padding: 30px;
-    margin: 20px 0 0 60px;
+    margin: 20px 0 0 120px;
     position: absolute;
     line-height: 50px;
 }
@@ -38,7 +38,8 @@ h1, h2 {
     font-size: 130%;
     letter-spacing: 3px;
     position: absolute;
-    margin: 110px 0 0 60px;
+    margin: 110px 0 0 110px;
+    
 }
 
 #menu li {
@@ -59,12 +60,13 @@ h1, h2 {
 }
 
 #gallery {
-    font-size: 130%;
+    font-size: 150%;
     float: right;
     list-style-type: none;
     margin-right: 70px;
     letter-spacing: 3px;
-    line-height: 100px;
+    line-height: 130px;
+    text-transform: uppercase;
 }
 
 #gallery a {
@@ -79,10 +81,32 @@ h1, h2 {
 
 /*image and about us*/
 
+#about-background {
+    background-color: #8AA69F;
+    margin: auto;
+}
+
 #french-bulldog {
     float: left;
+    width: 50%;
     height: 500px;
     width: 700px;
-    margin-left: 80px;
-    margin-top: 250px;
+    margin: 250px 0 0 130px;
+    border-radius: 2%;
+}
+
+#about {
+    font-size: 120%;
+    float: right;
+    width: 50%;
+    height: 500px;
+    width: 700px;
+    margin: 330px 200px 0px 0px;
+    border-radius: 2%;
+}
+
+hr {
+    border-top: 1px solid #476770;
+    width: 100%;
+    margin: 5px;
 }
