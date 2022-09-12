@@ -26,5 +26,63 @@ h1, h2 {
     float: left;
     font-size: 300%;
     padding: 30px;
-    margin: 10px;
+    margin: 20px 0 0 60px;
+    position: absolute;
+    line-height: 50px;
+}
+
+
+/*navigation links*/
+
+#menu {
+    font-size: 130%;
+    letter-spacing: 3px;
+    position: absolute;
+    margin: 110px 0 0 60px;
+}
+
+#menu li {
+    float: left;    
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: #8AA69F;
+}
+
+#menu a:hover {
+    color: #8AA69F;
+    border-bottom: 1px solid #8AA69F;
+}
+
+#gallery {
+    font-size: 130%;
+    float: right;
+    list-style-type: none;
+    margin-right: 70px;
+    letter-spacing: 3px;
+    line-height: 100px;
+}
+
+#gallery a {
+    text-decoration: none;
+    color: #8AA69F;
+}
+
+#gallery a:hover {
+    color: #8AA69F;
+    border-bottom: 1px solid #8AA69F;
+}
+
+/*image and about us*/
+
+#french-bulldog {
+    float: left;
+    height: 500px;
+    width: 700px;
+    margin-left: 80px;
+    margin-top: 250px;
 }
