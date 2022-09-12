@@ -2,6 +2,7 @@
 
 body {
     font-family: Playfair Display, serif;
+    color: #476770;
 
 }
 
@@ -10,4 +11,20 @@ body {
     padding: 0;
     border: none;
 
+}
+
+/* headings and logo*/
+
+h1, h2 {
+    font-family: Playfair Display, serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #8AA69F;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    padding: 30px;
+    margin: 10px;
 }
