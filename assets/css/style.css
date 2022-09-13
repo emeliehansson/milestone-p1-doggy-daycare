@@ -3,6 +3,7 @@
 body {
     font-family: Playfair Display, serif;
     color: #476770;
+    background-color: #DDE6D5;
 
 }
 
@@ -19,7 +20,7 @@ h1, h2 {
     font-family: Playfair Display, serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #8AA69F;
+    color: #476770;
 }
 
 #logo {
@@ -52,6 +53,7 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: #8AA69F;
+
 }
 
 #menu a:hover {
@@ -81,32 +83,31 @@ h1, h2 {
 
 /*image and about us*/
 
-#about-background {
-    background-color: #8AA69F;
-    margin: auto;
-}
 
 #french-bulldog {
     float: left;
     width: 50%;
     height: 500px;
     width: 700px;
-    margin: 250px 0 0 130px;
+    margin: 230px 0px 0px 80px;
     border-radius: 2%;
 }
 
 #about {
     font-size: 120%;
+    background-color: #fff;
     float: right;
-    width: 50%;
-    height: 500px;
-    width: 700px;
-    margin: 330px 200px 0px 0px;
-    border-radius: 2%;
+    width: 30%;
+    height: 300px;
+    width: 600px;
+    margin: 50px 0px 0px 10px;
+    padding: 10px;
+    opacity: 0.3;
+    font-family: Lato, sans-serif;
 }
 
 hr {
     border-top: 1px solid #476770;
-    width: 100%;
+    width: 95%;
     margin: 5px;
 }
