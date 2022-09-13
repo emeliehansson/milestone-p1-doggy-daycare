@@ -16,7 +16,7 @@ body {
 
 /* headings and logo*/
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Playfair Display, serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -99,7 +99,7 @@ h1, h2 {
     width: 45%;
     float: left;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 70px;
     
 }
 
@@ -133,8 +133,25 @@ hr {
     background-color: rgba(54, 55, 62, .1);
     position: relative;
     font-family: Lato, sans-serif;
-    margin-top: 200px;
-    margin-left: 40px;
+    margin-top: 150px;
+    margin-left: 70px;
     padding: 30px 10px 30px 10px;
     border: 1px solid rgba(93, 94, 92, .5);
+}
+
+#extra {
+    float: right;
+    font-size: 120%;
+    width: 45%;
+    background-color: rgba(54, 55, 62, .1);
+    position: relative;
+    font-family: Lato, sans-serif;
+    margin-top: 150px;
+    margin-right: 70px;
+    padding: 30px 10px 30px 10px;
+    border: 1px solid rgba(93, 94, 92, .5);
+}
+
+.trimming {
+    display: inline-block;
 }
