@@ -77,8 +77,10 @@
         </div>
     </section>
     <section>
-       <form action="confirmation.html" method="get">
+       <form action="confirmation.html" method="get" id="apply">
             <h2>Application</h2>
+            <hr>
+            <br>
                 <label for="fname">First Name:</label>
                 <input type="text" id="fname" name="first_name" required>
                 <label for="lname">Last Name:</label>
@@ -90,7 +92,12 @@
                 <label for="dog-breed">Dog's Breed:</label>
                 <input type="text" id="dog-breed" name="dog_breed" required>
                 <label for="dog-age">Dog's Age:</label>
-                <input type="text" id="dog-age" name="dog_age" required>
+                <input type="number" id="dog-age" name="dog_age" required>
+                <label for="full-time">Full Time</label>
+                <input type="radio" id="full-time" value="full_time" name="time" required>
+                <label for="part-time">Part Time</label>
+                <input type="radio" id="part-time" value="part_time" name="time"required>
+                <input type="submit" id="submit" value="Apply">
        </form>
     </section>
     <footer>

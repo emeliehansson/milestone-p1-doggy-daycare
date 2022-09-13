@@ -4,6 +4,7 @@ body {
     font-family: Playfair Display, serif;
     color: #476770;
     background-color: #d3d8cf;
+    padding-bottom: 100px;
 
 }
 
@@ -38,7 +39,7 @@ h1, h2, h3 {
     font-size: 130%;
     letter-spacing: 3px;
     position: absolute;
-    padding: 110px 0 0 110px;
+    padding: 110px 0 0 125px;
     
 }
 
@@ -69,7 +70,7 @@ h1, h2, h3 {
     font-size: 150%;
     float: right;
     list-style-type: none;
-    margin-right: 70px;
+    margin-right: 120px;
     letter-spacing: 3px;
     line-height: 170px;
 }
@@ -131,6 +132,7 @@ hr {
     float: left;
     font-size: 120%;
     width: 40%;
+    height: 330px;
     background-color: rgba(54, 55, 62, .1);
     position: relative;
     font-family: Lato, sans-serif;
@@ -145,6 +147,7 @@ hr {
     float: right;
     font-size: 120%;
     width: 45%;
+    height: 330px;
     background-color: rgba(54, 55, 62, .1);
     background-size: contain;
     position: relative;
@@ -156,3 +159,22 @@ hr {
     letter-spacing: 1px;
 }
 
+/*application form*/
+
+#apply {
+    float: left;
+    font-size: 120%;
+    width: 85%;
+    margin-top: 150px;
+    background: url(../images/pexels-markus-spiske-113338.jpg) no-repeat;
+    margin-left: 70px;
+    margin-bottom: 200px;
+    padding: 50px;
+    font-family: Lato, sans-serif;
+    color: #d3d8cf;
+    display: inline-block;
+}
+
+form > h2 {
+    color: #d3d8cf;
+}
