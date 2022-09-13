@@ -39,7 +39,7 @@
             <img src="assets/images/pexels-pixabay-160846.jpg" id="french-bulldog" alt="French Bulldog">
         </div>
         <div id="about">
-            <h2>About us</h2>
+            <h2>About us <i class="fa-solid fa-paw"></i></h2>
                 <hr>
                 <br>
                     <p>Welcome to Doggy Daycare, where your dog can come and stay for the day when you're at work or for a couple of days when you need a vacation. 
@@ -52,7 +52,7 @@
     </section>
     <section>
         <div id="services">
-            <h2>What we offer</h2>
+            <h2>What we offer <i class="fa-solid fa-dog"></i></h2>
             <hr>
             <br>
                 <p>Full time daycare: €300/month. If your family has more than one dog in need of daycare, the next dog will recieve a discount of €100/month.</p>
@@ -62,7 +62,7 @@
                 <p>Extra daycare (outside of regular hours): Contact us and we'll discuss it further.</p>
         </div>
         <div id="extra">
-            <h2>Something extra?</h2>
+            <h2>Something extra? <i class="fa-solid fa-scissors"></i></h2>
             <hr>
             <br>
                 <h3>Claw Clip</h3>
@@ -77,31 +77,39 @@
         </div>
     </section>
     <section>
-       <form action="confirmation.html" method="get" id="apply">
-            <h2>Application</h2>
-            <hr>
-            <br>
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="first_name" required>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="last_name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="dog-name">Dog's Name:</label>
-                <input type="text" id="dog-name" name="dog_name" required>
-                <label for="dog-breed">Dog's Breed:</label>
-                <input type="text" id="dog-breed" name="dog_breed" required>
-                <label for="dog-age">Dog's Age:</label>
-                <input type="number" id="dog-age" name="dog_age" required>
-                <label for="full-time">Full Time</label>
-                <input type="radio" id="full-time" value="full_time" name="time" required>
-                <label for="part-time">Part Time</label>
-                <input type="radio" id="part-time" value="part_time" name="time"required>
-                <input type="submit" id="submit" value="Apply">
-       </form>
+        <div>
+            <form action="confirmation.html" method="get">
+                <h2>Application</h2>
+                <hr>
+                <br>
+                    <label for="fname" class="label-font">First Name:</label>
+                    <input type="text" id="fname" name="first_name" required>
+                    <label for="lname" class="label-font">Last Name:</label>
+                    <input type="text" id="lname" name="last_name" required>
+                    <label for="email" class="label-font">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <br>
+                    <label for="dog-name" class="label-font">Dog's Name:</label>
+                    <input type="text" id="dog-name" name="dog_name" required>
+                    <label for="dog-breed" class="label-font">Dog's Breed:</label>
+                    <input type="text" id="dog-breed" name="dog_breed" required>
+                    <label for="dog-age" class="label-font">Dog's Age:</label>
+                    <input type="number" id="dog-age" name="dog_age" required>
+                    <br>
+                    <br>
+                    <label for="full-time" class="label-font">Full Time</label>
+                    <input type="radio" id="full-time" value="full_time" name="time" required>
+                    <label for="part-time" class="label-font">Part Time</label>
+                    <input type="radio" id="part-time" value="part_time" name="time"required>
+                    <input type="submit" id="submit" value="Apply">
+            </form>
+        </div>
     </section>
     <footer>
         Contact & social media links
     </footer>
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/15fd13d454.js" crossorigin="anonymous"></script>
 </body>
 </html>
