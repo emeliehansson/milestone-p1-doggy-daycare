@@ -19,7 +19,7 @@ body {
 h1, h2, h3 {
     font-family: Playfair Display, serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     color: #476770;
 }
 
@@ -110,10 +110,11 @@ h1, h2, h3 {
     background-color: rgba(54, 55, 62, .1);
     position: relative;
     font-family: Lato, sans-serif;
-    margin-top: 140px;
+    margin-top: 120px;
     margin-right: 70px;
     padding: 30px 10px 30px 10px;
     border: 1px solid rgba(93, 94, 92, .5);
+    letter-spacing: 1px;
 
 }
 
@@ -133,10 +134,11 @@ hr {
     background-color: rgba(54, 55, 62, .1);
     position: relative;
     font-family: Lato, sans-serif;
-    margin-top: 150px;
+    margin-top: 170px;
     margin-left: 70px;
     padding: 30px 10px 30px 10px;
     border: 1px solid rgba(93, 94, 92, .5);
+    letter-spacing: 1px;
 }
 
 #extra {
@@ -144,14 +146,13 @@ hr {
     font-size: 120%;
     width: 45%;
     background-color: rgba(54, 55, 62, .1);
+    background-size: contain;
     position: relative;
     font-family: Lato, sans-serif;
-    margin-top: 150px;
+    margin-top: 170px;
     margin-right: 70px;
     padding: 30px 10px 30px 10px;
     border: 1px solid rgba(93, 94, 92, .5);
+    letter-spacing: 1px;
 }
 
-.trimming {
-    display: inline-block;
-}
