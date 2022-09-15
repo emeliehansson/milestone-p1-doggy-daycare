@@ -113,6 +113,7 @@ hr {
     width: 95%;
     margin: 5px;
 }
+
 /* about us */
 
 .about {
@@ -130,8 +131,7 @@ hr {
     letter-spacing: 1px;
 
 }
-
-/* open times */
+ /* open times */
 
 .times {
     float: right;
@@ -151,7 +151,7 @@ hr {
 
 /* what we offer */
 
-#services {
+.services {
     float: left;
     font-size: 130%;
     width: 40%;
@@ -168,7 +168,7 @@ hr {
 
 /* something extra */
 
-#extra {
+.extra {
     float: right;
     font-size: 130%;
     width: 40%;
@@ -189,12 +189,12 @@ form {
     font-size: 130%;
     width: 84%;
     margin-top: 10%;
-    background: url(../images/pexels-pixabay-37401.jpg) no-repeat center center;
+    background: url(../images/pexels-markus-spiske-113338.jpg) no-repeat center center;
     background-size: cover;
     margin-left: 5%;
     margin-bottom: 200px;
     padding: 50px;
-    color: #476770;
+    color: #d3d8cf;
     font-family: Lato, sans-serif;
     display: inline-block;
 
@@ -264,7 +264,6 @@ form > h2 {
 /* footer */
 
 footer {
-    height: 150px;
     text-align: center;
     
 }
@@ -283,3 +282,101 @@ footer {
     padding: 5%;
     color: #476770;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200ox wide and down */ 
+@media screen and (max-width: 1200px) {
+    .about, .times, .extra, .services {
+        width: 65%;
+        height: 330px;
+        margin: 5%;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    .times, .extra {
+        width: 90%;
+        height: 400px;
+        margin: 5%;
+    }
+
+    .about, .services {
+        width: 90%;
+        height: 550px;
+        margin: 5%;
+        }
+
+    .about, .times, .extra, .services {
+        width: inherit;
+    }
+
+    .about h2, .times h2, .extra h2, .services h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .extra h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about p, .times p, .extra p, .services p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* For small screen size 800px and down*/
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
