@@ -28,7 +28,7 @@ h1, h2, h3 {
     float: left;
     font-size: 300%;
     padding: 30px;
-    margin: 20px 0 0 120px;
+    margin: 20px 0 0 90px;
     line-height: 50px;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3 {
     font-size: 130%;
     letter-spacing: 3px;
     position: absolute;
-    padding: 110px 0 0 135px;
+    padding: 110px 0 0 200px;
     
 }
 
@@ -85,24 +85,28 @@ h1, h2, h3 {
     border-bottom: 1px solid #8AA69F;
 }
 
-/*image and about us*/
+/* hero image and cover text*/
 
-#about-outer {
-    height: 500px;
+#hero-outer {
+    height: 600px;
     width: 100%;
-    position: relative;
-    float: left;
-
-}
-
-#french-bulldog {
-    height: 500px;
-    width: 45%;
-    float: left;
-    margin-top: 50px;
-    margin-left: 70px;
+    overflow: hidden;
     
+    position: relative;
 }
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-johann-5681788.jpg) no-repeat center center;
+    background-size: cover;
+
+/* about us */
 
 #about {
     float: right;
@@ -238,6 +242,21 @@ form > h2 {
 
 /* footer */
 
-#contact {
-    
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
