@@ -328,6 +328,11 @@ footer {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+    #hero-image {
+        width: 100%;
+        
+    }
+
     #logo {
         width: 50%;
 
@@ -347,7 +352,7 @@ footer {
         justify-content: space-between;
         clear: left;
         float: left;
-        margin-left: ;
+        margin-left: 10%;
         margin-top: 20%;
         margin-bottom: 20px;
         line-height: 25px;
@@ -398,6 +403,35 @@ footer {
 /* For small screen size 800px and down*/
 @media screen and (max-width: 800px) {
 
+
+    #logo {
+        font-size: 200%;
+        float: left;
+        clear: left;
+
+    }
+
+    #gallery {
+        clear: left;
+        float: left;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        line-height: 25px;
+        font-size: 95%;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-between;
+        font-size: 95%;
+        clear: left;
+        float: left;
+        margin-left: 8%;
+        margin-top: 30%;
+        margin-bottom: 10%;
+        line-height: 25px;
+    }
+
     #photos {
         column-count: 2;
     }
@@ -406,3 +440,4 @@ footer {
         width: 90%;
         margin: 5%;
     }
+
