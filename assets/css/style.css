@@ -330,6 +330,7 @@ footer {
 
     #hero-image {
         width: 100%;
+
         
     }
 
@@ -427,7 +428,7 @@ footer {
         clear: left;
         float: left;
         margin-left: 8%;
-        margin-top: 30%;
+        margin-top: 40%;
         margin-bottom: 10%;
         line-height: 25px;
     }
