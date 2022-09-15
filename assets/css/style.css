@@ -28,7 +28,7 @@ h1, h2, h3 {
     float: left;
     font-size: 300%;
     padding: 30px;
-    margin: 20px 0 0 90px;
+    margin: 20px 0 0 120px;
     line-height: 50px;
 }
 
@@ -36,19 +36,18 @@ h1, h2, h3 {
 /*navigation links*/
 
 #menu {
-    font-size: 130%;
+    font-size: 150%;
     letter-spacing: 3px;
     position: absolute;
-    padding: 110px 0 0 200px;
+    padding: 6.5% 0 0 11%;
     
 }
 
 #menu li {
     float: left;    
     list-style-type: none;
-    padding: 10px;
     position: relative;
-
+    padding: 10px;
 }
 
 #menu a {
@@ -70,7 +69,7 @@ h1, h2, h3 {
     font-size: 150%;
     float: right;
     list-style-type: none;
-    margin-right: 120px;
+    margin-right: 10%;
     letter-spacing: 3px;
     line-height: 170px;
 }
@@ -105,78 +104,100 @@ h1, h2, h3 {
     width: 100%;
     background: url(../images/pexels-johann-5681788.jpg) no-repeat center center;
     background-size: cover;
-
-/* about us */
-
-#about {
-    float: right;
-    font-size: 120%;
-    width: 40%;
-    background-color: rgba(54, 55, 62, .1);
-    position: relative;
-    font-family: Lato, sans-serif;
-    margin-top: 120px;
-    margin-right: 70px;
-    padding: 30px 10px 30px 10px;
-    border: 1px solid rgba(93, 94, 92, .5);
-    letter-spacing: 1px;
-
 }
 
+/* line (hr) styling*/
 
 hr {
     border-top: 1px solid #476770;
     width: 95%;
     margin: 5px;
 }
+/* about us */
 
-/* services section*/
+.about {
+    float: left;
+    font-size: 130%;
+    width: 40%;
+    height: 300px;
+    background-color: #AEBAB2;
+    position: relative;
+    font-family: Lato, sans-serif;
+    margin-top: 8%;
+    margin-left: 5%;
+    padding: 1%;
+    border: 1px solid #476770;
+    letter-spacing: 1px;
+
+}
+
+/* open times */
+
+.times {
+    float: right;
+    font-size: 130%;
+    width: 40%;
+    height: 300px;
+    background-color: #AEBAB2;
+    position: relative;
+    font-family: Lato, sans-serif;
+    margin-top: 8%;
+    margin-right: 5%;
+    padding: 1%;
+    border: 1px solid #476770;
+    letter-spacing: 1px;
+
+}
+
+/* what we offer */
 
 #services {
     float: left;
-    font-size: 120%;
+    font-size: 130%;
     width: 40%;
     height: 330px;
-    background-color: rgba(54, 55, 62, .1);
+    background-color: #AEBAB2;
     position: relative;
     font-family: Lato, sans-serif;
-    margin-top: 170px;
-    margin-left: 70px;
-    padding: 30px 10px 30px 10px;
-    border: 1px solid rgba(93, 94, 92, .5);
+    margin-top: 8%;
+    margin-left: 5%;
+    padding: 1%;
+    border: 1px solid #476770;
     letter-spacing: 1px;
 }
 
+/* something extra */
+
 #extra {
     float: right;
-    font-size: 120%;
+    font-size: 130%;
     width: 40%;
     height: 330px;
-    background-color: rgba(54, 55, 62, .1);
-    background-size: contain;
+    background-color: #AEBAB2;
     position: relative;
     font-family: Lato, sans-serif;
-    margin-top: 170px;
-    margin-right: 70px;
-    padding: 30px 10px 30px 10px;
-    border: 1px solid rgba(93, 94, 92, .5);
+    margin-top: 8%;
+    margin-right: 5%;
+    padding: 1%;
+    border: 1px solid #476770;
     letter-spacing: 1px;
 }
 
 /*application form*/
 
 form {
-    float: left;
-    font-size: 120%;
-    width: 85%;
-    margin-top: 150px;
-    background: url(../images/pexels-markus-spiske-113338.jpg) no-repeat;
-    margin-left: 70px;
+    font-size: 130%;
+    width: 84%;
+    margin-top: 10%;
+    background: url(../images/pexels-pixabay-37401.jpg) no-repeat center center;
+    background-size: cover;
+    margin-left: 5%;
     margin-bottom: 200px;
     padding: 50px;
+    color: #476770;
     font-family: Lato, sans-serif;
-    color: #d3d8cf;
     display: inline-block;
+
 }
 
 form > h2 {
@@ -196,7 +217,7 @@ form > h2 {
     background-color: #8AA69F;
 }
 
-#fname, #lname, #email, #dog-name, #dog-breed, #dog-age, #full-time, #part-time {
+.form-input {
     padding: 5px;
     margin: 10px;
     background-color: #d3d8cf;
@@ -206,7 +227,7 @@ form > h2 {
     font-family: Lato, sans-serif;
 }
 
-#fname:hover, #lname:hover, #email:hover, #dog-name:hover, #dog-breed:hover, #dog-age:hover {
+.form-input:hover {
     background-color: #8AA69F;
 }
 
