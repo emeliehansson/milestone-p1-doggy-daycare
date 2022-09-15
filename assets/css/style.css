@@ -248,23 +248,25 @@ form > h2 {
 
 #photos > img {
     width: 100%;
+}
 
 /* confirmation page for application */
 
-#confirmation {
-    padding: 20px;
-}
+.confirmation {
+    float: left;
+    font-size: 130%;
+    margin-top: 10%;
+    margin-left: 30%;
+    text-align: center;
 
-#confirmation > p {
-    padding-top: 10px;
-    font-size: 120%;
-    font-family: Lato, sans-serif;
 }
 
 /* footer */
 
 footer {
     height: 150px;
+    text-align: center;
+    
 }
 
 .social-networks {
@@ -279,5 +281,5 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #476770;
 }
