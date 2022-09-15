@@ -333,13 +333,22 @@ footer {
 
     }
 
+    #gallery {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
     #menu {
         display: flex;
         justify-content: space-between;
         clear: left;
         float: left;
-        margin-left: 30px;
-        margin-top: 10%;
+        margin-left: ;
+        margin-top: 20%;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -376,8 +385,9 @@ footer {
         padding: 0 0px;
     }
 
-    form {
-        width: 90%;
+    #apply {
+        width: 70%;
+        display: 
     }
 
     #photos {
@@ -387,6 +397,7 @@ footer {
 
 /* For small screen size 800px and down*/
 @media screen and (max-width: 800px) {
+
     #photos {
         column-count: 2;
     }
