@@ -39,7 +39,7 @@ h1, h2, h3 {
     font-size: 150%;
     letter-spacing: 3px;
     position: absolute;
-    padding: 6.5% 0 0 11%;
+    padding: 5% 0 0 8%;
     
 }
 
@@ -192,7 +192,7 @@ form {
     background: url(../images/pexels-markus-spiske-113338.jpg) no-repeat center center;
     background-size: cover;
     margin-left: 5%;
-    margin-bottom: 200px;
+    margin-bottom: 10%;
     padding: 50px;
     color: #d3d8cf;
     font-family: Lato, sans-serif;
@@ -288,7 +288,9 @@ footer {
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */ 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
+
+
     .about, .times, .extra, .services {
         width: 65%;
         height: 330px;
@@ -296,22 +298,12 @@ footer {
     }
 
     .about, .times, .extra, .services {
-        padding: 30px 0;
+        padding: 10px;
         margin: 0;
     }
 
-    #menu li {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-
+    #gallery {
+        width: inherit;
     }
 
     hr {
@@ -322,22 +314,16 @@ footer {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
+    #logo {
+        width: 100%;
 
-    #cover-text {
-        left: 0;
     }
 
     .times, .extra {
         width: 90%;
-        height: 400px;
+        height: 450px;
         margin: 5%;
+
     }
 
     .about, .services {
