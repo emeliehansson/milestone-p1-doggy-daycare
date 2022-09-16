@@ -304,8 +304,10 @@ footer {
     }
 
     #logo {
-        width: 50%;
-        margin: 0%;
+        width: 80%;
+    }
+
+
     }
 
     #menu {
@@ -353,7 +355,7 @@ footer {
         font-size: 200%;
         float: left;
         clear: left;
-        margin: 15% 5% 15% 11%;
+        margin: 0% 5% 15% 11%;
         padding: 0px;
     }
 
@@ -460,7 +462,7 @@ footer {
         font-size: 120%;
         float: left;
         clear: left;
-        margin: 20% 5% 5% 12%;
+        margin: 0% 0% 5% 5%;
         display: inline-block;
 
     }
@@ -486,11 +488,11 @@ footer {
     #menu {
         display: flex;
         justify-content: space-between;
-        font-size: 100%;
+        font-size: 90%;
         clear: left;
         float: left;
-        margin-left: 4%;
-        margin-top: 20%;
+        margin-left: 2%;
+        margin-top: 10%;
         margin-bottom: 7%;
         line-height: 25px;
 
@@ -499,7 +501,7 @@ footer {
     .times, .extra {
         width: 90%;
         height: 450px;
-        margin: 5% 5% 5% 0%;
+        margin: 5% 6% 5% 5%;
         text-align: center;
 
     }
@@ -507,7 +509,7 @@ footer {
     .about, .services {
         width: 90%;
         height: 550px;
-        margin: 5%;
+        margin: 5% 8% 5% 5%;
         text-align: center;
         }
 
@@ -537,7 +539,7 @@ footer {
     }
 
     #apply {
-        width: 63%;
+        width: 77%;
         display: flex;
         flex-flow: column;
         align-items: left;
@@ -563,3 +565,119 @@ footer {
         margin: 5%;
     }
 
+
+/* For small screen size 450px and down*/
+@media screen and (max-width: 450px){
+
+    #hero-image {
+        width: 100%;
+        
+    }
+
+    #logo {
+        font-size: 120%;
+        float: left;
+        clear: left;
+        margin: 0% 0% 5% 5%;
+        display: inline-block;
+
+    }
+
+    #logo h2 {
+        display: inline-block;
+        position: relative;
+        line-height: 51px;
+        vertical-align: middle;
+    }
+
+    #gallery {
+        clear: left;
+        float: right;
+        margin-right: 10%;
+        margin-bottom: 8%;
+        margin-top: 8%;
+        line-height: 25px;
+        font-size: 100%;
+        overflow: hidden;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-between;
+        font-size: 90%;
+        clear: left;
+        float: left;
+        margin-left: 2%;
+        margin-top: 20%;
+        margin-bottom: 7%;
+        line-height: 25px;
+
+    }
+
+    .times, .extra {
+        width: 90%;
+        height: 450px;
+        margin: 5% 5% 5% 0%;
+        text-align: center;
+
+    }
+
+    .about, .services {
+        width: 90%;
+        height: 550px;
+        margin: 5%;
+        text-align: center;
+        }
+
+    .about, .times, .extra, .services {
+        width: 90%;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about h2, .times h2, .extra h2, .services h2 {
+        width: 100%;
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .extra h3 {
+        width: 90%;
+        font-size: 90%;
+        text-align: center;
+    }
+
+    .about p, .times p, .extra p, .services p {
+        text-align: center;
+        padding: 5px;
+        font-size: 100%;
+    }
+
+    #apply {
+        width: 63%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: left;
+        font-size: 100%;
+    }
+
+    .label-font {
+        padding: 10px;
+    }
+
+    input[type="radio"] {
+        margin-bottom: 0px;
+        vertical-align: middle;
+      }
+
+    #photos {
+        column-count: 2;
+    }
+
+    footer { 
+        width: 90%;
+        margin: 5%;
+    }
+}

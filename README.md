@@ -21,4 +21,4 @@ Before starting the project I created a basic wireframe to have an idea of what 
 ---
 
 * Navigation bar:
-- At the top of the page there is a logo with the name of the daycare: DOGGY DAYCARE, that links to the top of the page.  
+- At the top of the page there is a logo with the name of the daycare: DOGGY DAYCARE, that links to the top of the page.
