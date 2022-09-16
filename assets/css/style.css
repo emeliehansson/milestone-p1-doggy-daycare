@@ -42,7 +42,7 @@ h1, h2, h3 {
     font-size: 150%;
     letter-spacing: 3px;
     margin-top: 7%;
-    margin-left: 7%;
+    margin-left: 6.5%;
     margin-bottom: 2%;
     
 }
@@ -294,14 +294,25 @@ footer {
 /* For larger to medium screens size from 1200px wide and down */ 
 @media screen and (max-width: 1200px) {
 
+
+    #hero-image {
+        width: 100%;
+        
+    }
+
+    #logo {
+        width: 100%;
+        margin: 0%;
+    }
+
     #menu {
         display: flex;
         justify-content: space-between;
         clear: left;
         float: left;
-        margin-left: ;
-        margin-bottom: ;
-        line-height: ;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        line-height: 75px;
     }
 
     .about, .times, .extra, .services {
@@ -318,6 +329,7 @@ footer {
 
     #gallery {
         width: inherit;
+
     }
 
     hr {
@@ -330,21 +342,27 @@ footer {
 
     #hero-image {
         width: 100%;
-
+        
         
     }
 
     #logo {
-        width: 50%;
-
+        font-size: 200%;
+        float: left;
+        clear: left;
+        margin: 15% 5% 15% 11%;
+        padding: 0px;
     }
 
     #gallery {
         clear: left;
-        float: left;
-        margin-left: 30px;
+        float: right;
+        font-size: 150%;
+        margin-top: 5%;
+        margin-right: 10%;
         margin-bottom: 20px;
         line-height: 25px;
+    
     }
 
 
@@ -353,47 +371,56 @@ footer {
         justify-content: space-between;
         clear: left;
         float: left;
-        margin-left: 10%;
+        margin-left: 7%;
         margin-top: 20%;
-        margin-bottom: 20px;
+        margin-bottom: 5%;
         line-height: 25px;
     }
 
     .times, .extra {
         width: 90%;
-        height: 450px;
-        margin: 5%;
+        height: 320px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+
 
     }
 
     .about, .services {
         width: 90%;
-        height: 550px;
-        margin: 5%;
-        }
+        height: 400px;
+        padding-top: 5%;
+        text-align: center;
+    }
 
     .about, .times, .extra, .services {
-        width: inherit;
+        width: 90%;
+        margin: 5%;
+        text-align: center;
     }
 
     .about h2, .times h2, .extra h2, .services h2 {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
     .extra h3 {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
     .about p, .times p, .extra p, .services p {
         text-align: center;
-        padding: 0 0px;
+        padding: 5px;
+
     }
 
     #apply {
-        width: 70%;
-        display: 
+        width: 78%;
+        display: flex;
+        flex-flow: column;
+        align-items: left;
     }
 
     #photos {
@@ -404,33 +431,87 @@ footer {
 /* For small screen size 800px and down*/
 @media screen and (max-width: 800px) {
 
+    #hero-image {
+        width: 100%;
+        
+    }
 
     #logo {
-        font-size: 200%;
+        font-size: 150%;
         float: left;
         clear: left;
+        margin: 20% 5% 5% 12%;
 
     }
 
     #gallery {
         clear: left;
-        float: left;
-        margin-left: 10%;
-        margin-bottom: 10%;
+        float: right;
+        margin-right: 10%;
+        margin-bottom: 8%;
+        margin-top: 8%;
         line-height: 25px;
-        font-size: 95%;
+        font-size: 100%;
+        overflow: hidden;
     }
 
     #menu {
         display: flex;
         justify-content: space-between;
-        font-size: 95%;
+        font-size: 100%;
         clear: left;
         float: left;
-        margin-left: 8%;
-        margin-top: 40%;
-        margin-bottom: 10%;
+        margin-left: 4%;
+        margin-top: 10%;
+        margin-bottom: 7%;
         line-height: 25px;
+
+    }
+
+    .times, .extra {
+        width: 90%;
+        height: 450px;
+        margin: 5% 5% 5% 0%;
+
+    }
+
+    .about, .services {
+        width: 90%;
+        height: 550px;
+        margin: 5%;
+        }
+
+    .about, .times, .extra, .services {
+        width: 90%;
+        align-content: center;
+    }
+
+    .about h2, .times h2, .extra h2, .services h2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .extra h3 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .about p, .times p, .extra p, .services p {
+        text-align: center;
+        padding: 5px;
+    }
+
+    #apply {
+        width: 60%;
+        display: flex;
+        flex-flow: column;
+        align-items: left;
+        text-align: left;
+        font-size: 100%;
+    }
+
+    .label-font {
+        padding: 10px;
     }
 
     #photos {
