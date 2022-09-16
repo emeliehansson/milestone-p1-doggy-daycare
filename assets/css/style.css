@@ -93,7 +93,6 @@ h1, h2, h3 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
     position: relative;
 }
 
@@ -241,6 +240,7 @@ form > h2 {
     padding: 10px;
 }
 
+
 /* gallery */
 
 #photos {
@@ -273,7 +273,7 @@ footer {
     text-align: center;
     height: 150px;
     margin-top: 5%;
-    margin-left: 30%;
+    margin-left: 35%;
     
 }
 
@@ -304,7 +304,7 @@ footer {
     }
 
     #logo {
-        width: 100%;
+        width: 50%;
         margin: 0%;
     }
 
@@ -432,8 +432,19 @@ footer {
         padding: 10px;
     }
 
+    input[type="radio"] {
+        margin-bottom: 10px;
+        vertical-align: middle;
+      }
+
     #photos {
         column-count: 3;
+    }
+
+    footer {
+        float: left;
+        margin-right: 35%;
+        overflow: hidden;
     }
 }
 
@@ -446,11 +457,19 @@ footer {
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 120%;
         float: left;
         clear: left;
         margin: 20% 5% 5% 12%;
+        display: inline-block;
 
+    }
+
+    #logo h2 {
+        display: inline-block;
+        position: relative;
+        line-height: 51px;
+        vertical-align: middle;
     }
 
     #gallery {
@@ -471,7 +490,7 @@ footer {
         clear: left;
         float: left;
         margin-left: 4%;
-        margin-top: 10%;
+        margin-top: 20%;
         margin-bottom: 7%;
         line-height: 25px;
 
@@ -481,6 +500,7 @@ footer {
         width: 90%;
         height: 450px;
         margin: 5% 5% 5% 0%;
+        text-align: center;
 
     }
 
@@ -488,30 +508,36 @@ footer {
         width: 90%;
         height: 550px;
         margin: 5%;
+        text-align: center;
         }
 
     .about, .times, .extra, .services {
         width: 90%;
         align-content: center;
+        text-align: center;
+        align-items: center;
     }
 
     .about h2, .times h2, .extra h2, .services h2 {
-        width: 90%;
+        width: 80%;
+        font-size: 120%;
         text-align: center;
     }
 
     .extra h3 {
         width: 90%;
+        font-size: 90%;
         text-align: center;
     }
 
     .about p, .times p, .extra p, .services p {
         text-align: center;
         padding: 5px;
+        font-size: 100%;
     }
 
     #apply {
-        width: 60%;
+        width: 63%;
         display: flex;
         flex-flow: column;
         align-items: left;
@@ -522,6 +548,11 @@ footer {
     .label-font {
         padding: 10px;
     }
+
+    input[type="radio"] {
+        margin-bottom: 0px;
+        vertical-align: middle;
+      }
 
     #photos {
         column-count: 2;
