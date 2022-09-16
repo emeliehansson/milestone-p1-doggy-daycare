@@ -30,9 +30,9 @@
         </ul>
     </nav>
     </header>
-    <section id="hero-outer">
+    <div id="hero-outer">
         <div id="hero-image"></div>
-    </section>
+    </div>
     <section>
         <div class="about">
             <h2>About us <i class="fa-solid fa-paw"></i></h2>
@@ -90,25 +90,25 @@
                 <h2>Application</h2>
                 <br>
                     <label for="fname" class="label-font">First Name:</label>
-                    <input type="text" class="form-input" name="first_name" required>
+                    <input type="text" id="fname" class="form-input" name="first_name" required>
                     <label for="lname" class="label-font">Last Name:</label>
-                    <input type="text" class="form-input" name="last_name" required>
+                    <input type="text" id="lname" class="form-input" name="last_name" required>
                     <label for="email" class="label-font">Email:</label>
-                    <input type="email" class="form-input" name="email" required>
+                    <input type="email" id="email" class="form-input" name="email" required>
                     <br>
                     <br>
                     <label for="dog-name" class="label-font">Dog's Name:</label>
-                    <input type="text" class="form-input" name="dog_name" required>
+                    <input type="text" id="dog-name" class="form-input" name="dog_name" required>
                     <label for="dog-breed" class="label-font">Dog's Breed:</label>
-                    <input type="text" class="form-input" name="dog_breed" required>
+                    <input type="text" id="dog-breed" class="form-input" name="dog_breed" required>
                     <label for="dog-age" class="label-font">Dog's Age:</label>
-                    <input type="number" class="form-input" name="dog_age" min="1" max="20" required>
+                    <input type="number" id="dog-age" class="form-input" name="dog_age" min="1" max="20" required>
                     <br>
                     <br>
                     <label for="full-time" class="label-font">Full Time</label>
                     <input type="radio" id="full-time" value="full_time" name="time" required>
                     <label for="part-time" class="label-font">Part Time</label>
-                    <input type="radio" id="part-time" value="part_time" name="time"required>
+                    <input type="radio" id="part-time" value="part_time" name="time" required>
                     <input type="submit" id="submit" value="Apply">
             </form>
         </div>

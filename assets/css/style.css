@@ -327,7 +327,7 @@ footer {
 
     .about, .times, .extra, .services {
         padding: 0px;
-        margin: ;
+        margin: 0px;
     }
 
     .times, .extra {
@@ -350,7 +350,7 @@ footer {
         width: 78%;
         display: flex;
         flex-flow: column;
-        align-items: left;
+        align-items: center;
         text-align: left;
         font-size: 110%;
     }
@@ -454,7 +454,7 @@ footer {
         width: 78%;
         display: flex;
         flex-flow: column;
-        align-items: left;
+        align-items: center;
         text-align: center;
         font-size: 110%;
     }
@@ -571,7 +571,7 @@ footer {
         width: 77%;
         display: flex;
         flex-flow: column;
-        align-items: left;
+        align-items: center;
         text-align: left;
         font-size: 100%;
     }
