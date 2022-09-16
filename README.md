@@ -102,7 +102,7 @@ The live link can be found here: [Doggy Daycare](https://emeliehansson.github.io
 ## Credits
 
 ### Content
--   The code to make the social media links, the media queries and footer was found from the CI [Love Running](https://emeliehansson.github.io/love-running/) Project.
+-   The code to make the social media links, the media queries, the masonry structure in the gallery and footer was found from the CI [Love Running](https://emeliehansson.github.io/love-running/) Project.
 
 ### Media
 
