@@ -307,9 +307,6 @@ footer {
         width: 80%;
     }
 
-
-    }
-
     #menu {
         display: flex;
         justify-content: space-between;
@@ -324,17 +321,49 @@ footer {
         width: 100%;
         height: 330px;
         clear: both;
+        margin: 5% 5% 5% 5%;
         
     }
 
     .about, .times, .extra, .services {
         padding: 0px;
-        margin: 0;
+        margin: ;
+    }
+
+    .times, .extra {
+        width: 90%;
+        height: 320px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+
+    }
+
+    .about, .services {
+        width: 90%;
+        height: 400px;
+        padding-top: 5%;
+        text-align: center;
+    }
+
+    #apply {
+        width: 78%;
+        display: flex;
+        flex-flow: column;
+        align-items: left;
+        text-align: left;
+        font-size: 110%;
     }
 
     #gallery {
         width: inherit;
 
+    }
+
+    footer {
+            float: left;
+            margin-left: 25%;
+            overflow: hidden;
     }
 
     hr {
@@ -426,7 +455,7 @@ footer {
         display: flex;
         flex-flow: column;
         align-items: left;
-        text-align: left;
+        text-align: center;
         font-size: 110%;
     }
 
