@@ -70,9 +70,40 @@ Before starting the project I created a basic wireframe to have an idea of what 
 ### Bugs
 -   My accessibility score was lower on the first test, I had missed connecting the labels to an input, inside the form. After that the score was better.
 
-## Validator 
+### Validator Testing 
 -   HTML: 
     When I tested my code in the HTML validator I saw that I had missed adding a space beetween attributes. Solved by adding a space.
     Otherwise no errors were found.
 
 ![Fixed Bug](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2012.32.22.png)
+
+-   CSS:
+    No errors were found when passing through the official (JigSaw) Validator.
+
+-   Accessibility: 
+    I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. 
+
+![Lighthouse](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2012.42.18.png)
+
+### Unfixed Bugs
+-   Unfortunately the Performance part of the Lighthouse check was not good. So this would be something I would have to look further into.
+
+![Performance](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2012.42.51.png)
+![Performance](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2012.43.01.png)
+
+## Deployment
+-   The site was deployed to GitHub Pages. These steps were followed:
+    * In the GitHub Repository, navigate to the settings tab
+    * From the source section drop-down menu, select the Main branch
+    * Once the main branch has been selected, the page provided the link to the completed website. 
+
+The live link can be found here: [Doggy Daycare](https://emeliehansson.github.io/milestone-p1-doggy-daycare/)
+
+## Credits
+
+### Content
+-   The code to make the social media links, the media queries and footer was found from the CI [Love Running](https://emeliehansson.github.io/love-running/) Project.
+
+### Media
+
+-   The image on the header and the images in the gallery was found on [Pexels](https://www.pexels.com/sv-SE/).
