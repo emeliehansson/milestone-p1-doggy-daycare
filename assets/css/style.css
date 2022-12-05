@@ -393,8 +393,9 @@ footer {
         column-count: 3;
     }
 
-    footer h2 {
+    footer {
         text-align: center;
+        margin-right: 25%;
     }
 }
 
@@ -498,6 +499,7 @@ footer {
 
     #photos {
         column-count: 2;
+        column-gap: 5%;
     }
 
     footer {
