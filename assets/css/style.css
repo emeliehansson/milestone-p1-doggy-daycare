@@ -104,7 +104,7 @@ h1, h2, h3 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-johann-5681788.jpg) no-repeat center center;
+    background: url(../images/pexels-johann-5681788\ \(1\).jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -188,10 +188,10 @@ hr {
 /*application form*/
 
 form {
-    font-size: 130%;
+    font-size: 150%;
     width: 80%;
     margin-top: 10%;
-    background: url(../images/pexels-markus-spiske-113338.jpg) no-repeat center center;
+    background: url(../images/pexels-alexander-igrevsky-1310755\ \(1\).jpg) no-repeat center center;
     background-size: cover;
     margin-left: 4%;
     margin-bottom: 10%;
@@ -199,6 +199,7 @@ form {
     color: #d3d8cf;
     font-family: Lato, sans-serif;
     display: inline-block;
+    justify-content: center;
 
 }
 
@@ -231,13 +232,14 @@ form > h2 {
 }
 
 .form-input:hover {
-    background-color: #8AA69F;
+    background-color: #48504e;
 }
 
 .label-font {
     font-family: Lato, sans-serif;
-    font-size: 110%;
+    font-size: 100%;
     padding: 10px;
+    font-weight: bold;
 }
 
 
@@ -247,12 +249,11 @@ form > h2 {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0px;
-    padding-top: 20px;
+    column-gap: 5%;
 }
 
 #photos > img {
-    width: 100%;
+    width: 120%;
 }
 
 /* confirmation page for application */
@@ -294,9 +295,8 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */ 
-@media screen and (max-width: 1200px) {
-
+/* For medium screens sizes from 768px wide and down */
+@media screen and (max-width: 768px) {
 
     #hero-image {
         width: 100%;
@@ -304,7 +304,11 @@ footer {
     }
 
     #logo {
-        width: 80%;
+        font-size: 230%;
+        float: left;
+        clear: left;
+        margin: 0% 6% 10% 11%;
+        padding: 0%;
     }
 
     #menu {
@@ -312,80 +316,6 @@ footer {
         justify-content: space-between;
         clear: left;
         float: left;
-        margin-left: 5%;
-        margin-bottom: 5%;
-        line-height: 75px;
-    }
-
-    .about, .times, .extra, .services {
-        width: 100%;
-        height: 330px;
-        clear: both;
-        margin: 5% 5% 5% 5%;
-        
-    }
-
-    .about, .times, .extra, .services {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .times, .extra {
-        width: 90%;
-        height: 320px;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        text-align: center;
-
-    }
-
-    .about, .services {
-        width: 90%;
-        height: 400px;
-        padding-top: 5%;
-        text-align: center;
-    }
-
-    #apply {
-        width: 78%;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        text-align: left;
-        font-size: 110%;
-    }
-
-    #gallery {
-        width: inherit;
-
-    }
-
-    footer {
-            float: left;
-            margin-left: 25%;
-            overflow: hidden;
-    }
-
-    hr {
-        display: none;
-    }
-}
-
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    #hero-image {
-        width: 100%;
-        
-        
-    }
-
-    #logo {
-        font-size: 200%;
-        float: left;
-        clear: left;
-        margin: 0% 5% 15% 11%;
-        padding: 0px;
     }
 
     #gallery {
@@ -399,26 +329,12 @@ footer {
     
     }
 
-
-    #menu {
-        display: flex;
-        justify-content: space-between;
-        clear: left;
-        float: left;
-        margin-left: 7%;
-        margin-top: 20%;
-        margin-bottom: 5%;
-        line-height: 25px;
-    }
-
     .times, .extra {
         width: 90%;
         height: 320px;
         padding-top: 5%;
         padding-bottom: 5%;
         text-align: center;
-
-
     }
 
     .about, .services {
@@ -456,11 +372,16 @@ footer {
         flex-flow: column;
         align-items: center;
         text-align: center;
-        font-size: 110%;
+        font-size: 130%;
+    }
+
+    .form-input {
+        width: 200px;
     }
 
     .label-font {
         padding: 10px;
+        font-size: 120%;
     }
 
     input[type="radio"] {
@@ -472,15 +393,13 @@ footer {
         column-count: 3;
     }
 
-    footer {
-        float: left;
-        margin-right: 35%;
-        overflow: hidden;
+    footer h2 {
+        text-align: center;
     }
 }
 
-/* For small screen size 800px and down*/
-@media screen and (max-width: 800px) {
+/* For small screen size 350px and down*/
+@media screen and (max-width: 350px){
 
     #hero-image {
         width: 100%;
@@ -488,19 +407,11 @@ footer {
     }
 
     #logo {
-        font-size: 120%;
+        font-size: 140%;
         float: left;
         clear: left;
-        margin: 0% 0% 5% 5%;
-        display: inline-block;
+        margin: 0% 0% 0% 5%;
 
-    }
-
-    #logo h2 {
-        display: inline-block;
-        position: relative;
-        line-height: 51px;
-        vertical-align: middle;
     }
 
     #gallery {
@@ -523,140 +434,8 @@ footer {
         margin-left: 2%;
         margin-top: 10%;
         margin-bottom: 7%;
-        line-height: 25px;
 
     }
-
-    .times, .extra {
-        width: 90%;
-        height: 450px;
-        margin: 5% 6% 5% 5%;
-        text-align: center;
-
-    }
-
-    .about, .services {
-        width: 90%;
-        height: 550px;
-        margin: 5% 8% 5% 5%;
-        text-align: center;
-        }
-
-    .about, .times, .extra, .services {
-        width: 90%;
-        align-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .about h2, .times h2, .extra h2, .services h2 {
-        width: 80%;
-        font-size: 120%;
-        text-align: center;
-    }
-
-    .extra h3 {
-        width: 90%;
-        font-size: 90%;
-        text-align: center;
-    }
-
-    .about p, .times p, .extra p, .services p {
-        text-align: center;
-        padding: 5px;
-        font-size: 100%;
-    }
-
-    #apply {
-        width: 77%;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        text-align: left;
-        font-size: 100%;
-    }
-
-    .label-font {
-        padding: 10px;
-    }
-
-    input[type="radio"] {
-        margin-bottom: 0px;
-        vertical-align: middle;
-      }
-
-    #photos {
-        column-count: 2;
-    }
-
-    footer { 
-        width: 90%;
-        margin: 5%;
-    }
-
-
-/* For small screen size 450px and down*/
-@media screen and (max-width: 450px){
-
-    #hero-image {
-        width: 100%;
-        
-    }
-
-    #logo {
-        font-size: 120%;
-        float: left;
-        clear: left;
-        margin: 0% 0% 5% 5%;
-        display: inline-block;
-
-    }
-
-    #logo h2 {
-        display: inline-block;
-        position: relative;
-        line-height: 51px;
-        vertical-align: middle;
-    }
-
-    #gallery {
-        clear: left;
-        float: right;
-        margin-right: 10%;
-        margin-bottom: 8%;
-        margin-top: 8%;
-        line-height: 25px;
-        font-size: 100%;
-        overflow: hidden;
-    }
-
-    #menu {
-        display: flex;
-        justify-content: space-between;
-        font-size: 90%;
-        clear: left;
-        float: left;
-        margin-left: 2%;
-        margin-top: 20%;
-        margin-bottom: 7%;
-        line-height: 25px;
-
-    }
-
-    .times, .extra {
-        width: 90%;
-        height: 450px;
-        margin: 5% 5% 5% 0%;
-        text-align: center;
-
-    }
-
-    .about, .services {
-        width: 90%;
-        height: 550px;
-        margin: 5%;
-        text-align: center;
-        }
 
     .about, .times, .extra, .services {
         width: 90%;
@@ -669,6 +448,22 @@ footer {
         width: 100%;
         font-size: 120%;
         text-align: center;
+    }
+
+    .times, .extra {
+        width: 90%;
+        height: 450px;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .about, .services {
+        width: 90%;
+        height: 550px;
+        text-align: center;
+        justify-content: center;
+    
     }
 
     .extra h3 {
@@ -705,7 +500,8 @@ footer {
         column-count: 2;
     }
 
-    footer { 
+    footer {
+        font-size: 80%;
         width: 90%;
         margin: 5%;
     }
