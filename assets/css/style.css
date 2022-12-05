@@ -312,6 +312,40 @@ footer {
 
 /* Media queries */
 
+/* For larger screen size 2560px and up*/
+@media screen and (min-width: 2560px){
+
+    #logo {
+        font-size: 300%;
+    }
+
+    #menu {
+        font-size: 180%;
+        margin: 6% 5% 5% 6%;
+    }
+
+    .times, .services, .about, .extra {
+        width: 1000px;
+    }
+
+    .about, .services {
+        margin-left: 10%;
+    }
+
+    .times, .extra {
+        margin-right: 10%;
+    }
+
+    #apply {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        margin-left: 40%;
+    }
+}
+
 /* For medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
 
