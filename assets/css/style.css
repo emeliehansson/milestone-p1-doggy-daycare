@@ -245,15 +245,27 @@ form > h2 {
 
 /* gallery */
 
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 #photos {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 5%;
+    column-gap: 2%;
+    margin: 0 auto;
+    padding: 20px;
+    
 }
 
-#photos > img {
-    width: 120%;
+img {
+    width: 100%;
 }
 
 /* confirmation page for application */
