@@ -118,11 +118,18 @@ hr {
 
 /* about us */
 
+.offers {
+    display: block;
+    padding: 5px;
+    justify-content: center;
+    margin: 5px;
+}
+
 .about {
     float: left;
     font-size: 130%;
     width: 40%;
-    height: 300px;
+    height: 330px;
     background-color: #AEBAB2;
     position: relative;
     font-family: Lato, sans-serif;
@@ -139,12 +146,12 @@ hr {
     float: right;
     font-size: 130%;
     width: 40%;
-    height: 300px;
+    height: 330px;
     background-color: #AEBAB2;
     position: relative;
     font-family: Lato, sans-serif;
     margin-top: 8%;
-    margin-right: 10%;
+    margin-right: 4%;
     padding: 1%;
     border: 1px solid #476770;
     letter-spacing: 1px;
@@ -179,7 +186,7 @@ hr {
     position: relative;
     font-family: Lato, sans-serif;
     margin-top: 8%;
-    margin-right: 10%;
+    margin-right: 4%;
     padding: 1%;
     border: 1px solid #476770;
     letter-spacing: 1px;
@@ -189,7 +196,7 @@ hr {
 
 form {
     font-size: 150%;
-    width: 80%;
+    width: 85%;
     margin-top: 10%;
     background: url(../images/pexels-alexander-igrevsky-1310755\ \(1\).jpg) no-repeat center center;
     background-size: cover;
@@ -285,8 +292,7 @@ footer {
     float: left;
     text-align: center;
     height: 150px;
-    margin-top: 5%;
-    margin-left: 35%;
+    margin: 5% 0% 5% 32%;
     
 }
 
