@@ -104,7 +104,7 @@ h1, h2, h3 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-johann-5681788\ \(1\).jpg) no-repeat center center;
+    background: url(/assets/images/211172487_10208978973147742_131536278242214293_n.jpeg) no-repeat center center;
     background-size: cover;
 }
 
@@ -198,12 +198,12 @@ form {
     font-size: 150%;
     width: 85%;
     margin-top: 10%;
-    background: url(../images/pexels-alexander-igrevsky-1310755\ \(1\).jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #AEBAB2;
+    border: 1px solid #476770;
     margin-left: 4%;
     margin-bottom: 10%;
     padding: 50px;
-    color: #d3d8cf;
+    color: #476770;
     font-family: Lato, sans-serif;
     display: inline-block;
     justify-content: center;
@@ -211,7 +211,7 @@ form {
 }
 
 form > h2 {
-    color: #d3d8cf;
+    color: #476770;
 }
 
 #submit {
@@ -239,7 +239,7 @@ form > h2 {
 }
 
 .form-input:hover {
-    background-color: #48504e;
+    background-color: #476770;
 }
 
 .label-font {
@@ -312,40 +312,6 @@ footer {
 
 /* Media queries */
 
-/* For larger screen size 2560px and up*/
-@media screen and (min-width: 2560px){
-
-    #logo {
-        font-size: 300%;
-    }
-
-    #menu {
-        font-size: 180%;
-        margin: 6% 5% 5% 6%;
-    }
-
-    .times, .services, .about, .extra {
-        width: 1000px;
-    }
-
-    .about, .services {
-        margin-left: 10%;
-    }
-
-    .times, .extra {
-        margin-right: 10%;
-    }
-
-    #apply {
-        text-align: center;
-    }
-
-    footer {
-        text-align: center;
-        margin-left: 40%;
-    }
-}
-
 /* For medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
 
@@ -383,7 +349,7 @@ footer {
 
     .times, .extra {
         width: 90%;
-        height: 320px;
+        height: 330px;
         padding-top: 5%;
         padding-bottom: 5%;
         text-align: center;
