@@ -151,10 +151,12 @@ Before starting the project I created a basic wireframe to have an idea of what 
 The live link can be found here: [Doggy Daycare](https://emeliehansson.github.io/milestone-p1-doggy-daycare/index.html).
 
 ## Credits
+- For general information and tips I have used these websites: [W3 Schools](https://www.w3schools.com/) and [Developer Mozilla](https://developer.mozilla.org/en-US/).
 
 ### Content
--   The code to make the social media links, the media queries, the masonry structure in the gallery and footer was found from the CI [Love Running](https://emeliehansson.github.io/love-running/) Project.
-
+- The code to make the social media links, the media queries, the masonry structure in the gallery and footer was found from the CI [Love Running](https://emeliehansson.github.io/love-running/) Project.
+- The social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- The font style, Trispace, was found at [Google Fonts](https://fonts.google.com/).
 ### Media
 - The image on the header was found on [Pexels](https://www.pexels.com/sv-SE/).
 - The images in the gallery are photos taken by myself, Ann Magnusson and a photographer called Jeanette Bergenstav.
