@@ -417,7 +417,7 @@ footer {
     }
 }
 
-/* For small screen size 350px and down*/
+/* For small screen size 600px and down*/
 @media screen and (max-width: 350px){
 
     #hero-image {
