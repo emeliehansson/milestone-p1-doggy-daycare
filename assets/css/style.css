@@ -312,8 +312,8 @@ footer {
 
 /* Media queries */
 
-/* For medium screens sizes from 768px wide and down */
-@media screen and (max-width: 768px) {
+/* For medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
 
     #hero-image {
         width: 100%;
