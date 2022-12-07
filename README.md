@@ -4,7 +4,7 @@ The Doggy Daycare is a website for dog owners. Users that visit this webpage are
 
 The users can on this website find information about the daycare, what services they offer, pricing, open times, contact information, the location, a signup form and they can also see photos from the daycare.
 
-![Responsiveness](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2012.14.53.png)
+![Responsiveness](ADD NEW RESPONSIVE IMAGE)
 
 
 &nbsp;
@@ -133,8 +133,12 @@ Before starting the project I created a basic wireframe to have an idea of what 
 - HTML: 
     No errors where found when passing through [W3C Validator](https://validator.w3.org/nu/).
 
+![HTML Validator](readme-images/HTML%20Validator.png)
+
 - CSS:
     No errors where found when passing through [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+
+![CSS Validator](readme-images/CSS%20Validator.png)
 
 ### Unfixed Bugs
 - No unfixed bugs have been found.
@@ -157,6 +161,8 @@ The live link can be found here: [Doggy Daycare](https://emeliehansson.github.io
 - The code to make the social media links, the media queries, the masonry structure in the gallery and footer was found from the CI [Love Running](https://emeliehansson.github.io/love-running/) Project.
 - The social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - The font style, Trispace, was found at [Google Fonts](https://fonts.google.com/).
+- Images were reduced in size with use of [Tiny Png](https://tinypng.com/).
+
 ### Media
 - The image on the header was found on [Pexels](https://www.pexels.com/sv-SE/).
 - The images in the gallery are photos taken by myself, Ann Magnusson and a photographer called Jeanette Bergenstav.

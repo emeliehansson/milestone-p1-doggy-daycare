@@ -104,7 +104,7 @@ h1, h2, h3 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-musicfactory-lehmannsound-215957\ \(1\).jpg) no-repeat center center;
+    background: url(../images/pexels-musicfactory-lehmannsound-215957-_1_.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -446,23 +446,21 @@ footer {
     }
 
     #menu {
-        display: flex;
-        justify-content: space-between;
-        font-size: 90%;
-        clear: left;
+        display:;
+        font-size: 80%;
         float: left;
         margin-left: 2%;
         margin-top: 10%;
         margin-bottom: 7%;
+        padding: 0px;
 
     }
 
     .about, .times, .extra, .services {
-        width: 90%;
+        width: 80%;
         height: 600px;
         align-content: center;
-        text-align: center;
-        align-items: center;
+        
     }
 
     .times {
@@ -472,6 +470,10 @@ footer {
     .extra {
         height: 400px;
         margin-bottom: 10%;
+    }
+    
+    .services {
+        height: 650px;
     }
 
     .about h2, .times h2, .extra h2, .services h2 {
