@@ -426,7 +426,7 @@ footer {
     }
 
     #logo {
-        font-size: 140%;
+        font-size: 160%;
         float: left;
         clear: left;
         margin: 0% 0% 0% 5%;
@@ -451,14 +451,16 @@ footer {
         margin-top: 10%;
         margin-bottom: 7%;
         padding: 0px;
+    }
 
+    #menu ul {
+        font-size: 120%;
     }
 
     .about, .times, .extra, .services {
         width: 80%;
         height: 600px;
         align-content: center;
-        
     }
 
     .times {
@@ -520,4 +522,11 @@ footer {
         width: 90%;
         margin: 5%;
     }
+
+/* For small screen size 378px and down*/
+@media screen and (max-width: 378px){
+    #menu ul {
+        font-size: 90%;
+    }
+}
 }
