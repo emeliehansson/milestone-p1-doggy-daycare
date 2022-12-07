@@ -415,6 +415,14 @@ footer {
         text-align: center;
         margin-right: 25%;
     }
+
+    .confirmation {
+        float: left;
+        font-size: 100%;
+        margin: 10% 0% 10% 17%;
+        text-align: center;
+    
+    }
 }
 
 /* For small screen size 600px and down*/
@@ -523,10 +531,26 @@ footer {
         margin: 5%;
     }
 
+    .confirmation {
+        float: left;
+        font-size: 90%;
+        margin: 10% 0% 10% 0%;
+        text-align: center;
+    
+    }
+
 /* For small screen size 378px and down*/
 @media screen and (max-width: 378px){
     #menu ul {
         font-size: 90%;
+    }
+
+    .confirmation {
+        float: left;
+        font-size: 80%;
+        margin: 10% 5% 15% 10%;
+        text-align: center;
+    
     }
 }
 }
