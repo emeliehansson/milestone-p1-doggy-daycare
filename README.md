@@ -4,7 +4,7 @@ The Doggy Daycare is a website for dog owners. Users that visit this webpage are
 
 The users can on this website find information about the daycare, what services they offer, pricing, open times, contact information, the location, a signup form and they can also see photos from the daycare.
 
-![Responsiveness](ADD NEW RESPONSIVE IMAGE)
+![Responsiveness](readme-images/Am%20I%20Responsive.png)
 
 
 &nbsp;
@@ -80,6 +80,7 @@ Before starting the project I created a basic wireframe to have an idea of what 
 ### Gallery Section
 -	In the gallery section the user can view pictures taken of current dogs at the daycare in different environments. 
 -	The navigation bar is locked and can also be viewed from the gallery section. 
+-   From the gallery the user can also navigate back to the home page by clicking the "Doggy Daycare" logo, or by clicking "Services" or "Application" if that's the part of the page they would like to reach. 
 
 ![Gallery](readme-images/Gallery%20section.png)
 
@@ -126,6 +127,12 @@ Before starting the project I created a basic wireframe to have an idea of what 
 &nbsp;
 
 ## Testing (second part before resubmission.)
+
+Tested the navigation links from the homepage | They should take the user to either the gallery on another page or to the "services"/"application" part of the landing page | All links work as expected.
+
+Tested the navigation links from the gallery | They should take the user back to the home page by clicking the "doggy daycare" logo or to the "services"/"application" part of the landing page | All links work as expected.
+
+Tested the social media links in the footer | They should take the user to the home pages of Facebook, Youtube and Instagram | All links work as expected.
 
 ### Bugs
 
