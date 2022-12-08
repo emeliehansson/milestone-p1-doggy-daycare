@@ -5,8 +5,6 @@ The Doggy Daycare is a website for dog owners. Users that visit this webpage are
 The users can on this website find information about the daycare, what services they offer, pricing, open times, contact information, the location, a signup form and they can also see photos from the daycare.
 
 ![Responsiveness](readme-images/Am%20I%20Responsive.png)
-
-
 &nbsp;
 
 ## Wireframes 
@@ -17,7 +15,6 @@ Before starting the project I created a basic wireframe to have an idea of what 
 ![Wireframes](readme-images/Screenshot-1-Wireframes.png)
 ![Wireframes](readme-images/Screenshot-2-Wireframes.png)
 ![Wireframes](readme-images/Screenshot-3-Wireframes.png)
-
 &nbsp;
 
 ## Features
@@ -31,7 +28,6 @@ Before starting the project I created a basic wireframe to have an idea of what 
 
 
 ![Navigation bar](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2011.46.15.png)
-
 &nbsp;
 
 ### About us Section
@@ -40,13 +36,11 @@ Before starting the project I created a basic wireframe to have an idea of what 
 -   The section provides clear information about what the website is for. 
 
 ![About us](readme-images/About%20section.png)
-
 &nbsp;
 
 ### Open Times Section
 - This part of the website is very straight forward: here the user can find the open times for the daycare, for when they can drop off and pick up their dog during the week.
 - It also gives the user information about that the daycare can be open on the weekends as well, upon agreement. 
-
 ![Open times](readme-images/Times%20section.png)
 
 &nbsp;
@@ -56,7 +50,6 @@ Before starting the project I created a basic wireframe to have an idea of what 
 -	This section shows the user the information they need to have about the daycare to be able to decide about applying. 
 -   In this section the owners of the dogs can also read about what extras they offer, things that can make it easier for the owner.
     Such as that the daycare can give the dog a bath for them. 
-
 ![Services](readme-images/Services%20section.png)
 
 &nbsp;
@@ -65,7 +58,6 @@ Before starting the project I created a basic wireframe to have an idea of what 
 - This section of the site informs the user about the extra services they can pay for while their dog is at the daycare, such as claw clipping and bathing etc.
 
 ![Extras](readme-images/Extras%20section.png)
-
 &nbsp;
 
 ### Application Section
@@ -74,7 +66,6 @@ Before starting the project I created a basic wireframe to have an idea of what 
 -	In this section the owner also has to let the daycare know how much they want to leave their dog at the daycare.
 
 ![Application](readme-images/Application%20form.png)
-
 &nbsp;
 
 ### Gallery Section
@@ -83,7 +74,6 @@ Before starting the project I created a basic wireframe to have an idea of what 
 -   From the gallery the user can also navigate back to the home page by clicking the "Doggy Daycare" logo, or by clicking "Services" or "Application" if that's the part of the page they would like to reach. 
 
 ![Gallery](readme-images/Gallery%20section.png)
-
 &nbsp;
 
 ### Footer Section
@@ -99,9 +89,11 @@ Before starting the project I created a basic wireframe to have an idea of what 
 -   I have tested that this page works on: Google Chrome and Safari.
 -   I confirmed that this project is responsive, looks good and functions on all standard screens using the devtools device toolbar.
 -   I confirmed that navigation, about us, signup and application are all readable and easy to understand.
+&nbsp;
 
 ### Bugs
 -   My accessibility score was lower on the first test, I had missed connecting the labels to an input, inside the form. After that the score was better.
+&nbsp;
 
 ### Validator Testing 
 -   HTML: 
@@ -117,13 +109,13 @@ Before starting the project I created a basic wireframe to have an idea of what 
     I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. 
 
 ![Lighthouse](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2012.42.18.png)
+&nbsp;
 
 ### Unfixed Bugs
 -   Unfortunately the Performance part of the Lighthouse check was not good. So this would be something I would have to look further into.
 
 ![Performance](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2012.42.51.png)
 ![Performance](readme-images/Ska%CC%88rmavbild%202022-09-16%20kl.%2012.43.01.png)
-
 &nbsp;
 
 ## Testing (second part before resubmission.)
@@ -133,8 +125,12 @@ Tested the navigation links from the homepage | They should take the user to eit
 Tested the navigation links from the gallery | They should take the user back to the home page by clicking the "doggy daycare" logo or to the "services"/"application" part of the landing page | All links work as expected.
 
 Tested the social media links in the footer | They should take the user to the home pages of Facebook, Youtube and Instagram | All links work as expected.
+&nbsp;
 
 ### Bugs
+
+No bugs have been found. 
+&nbsp;
 
 ### Validator Testing
 - HTML: 
@@ -146,9 +142,21 @@ Tested the social media links in the footer | They should take the user to the h
     No errors where found when passing through [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
 
 ![CSS Validator](readme-images/CSS%20Validator.png)
+&nbsp;
+
+### Lighthouse
+
+The website got good scores on both desktop and mobile, only note is that on mobile the performance is not as good as it is on desktop.
+
+![Lighthouse Desktop](readme-images/Lighthouse%20Desktop.png)
+&nbsp;
+
+![Lighthouse Mobile](readme-images/Lighthouse%20mobile.png)
+&nbsp;
 
 ### Unfixed Bugs
-- No unfixed bugs have been found.
+- None.
+&nbsp;
 
 ## Deployment
 
@@ -160,6 +168,7 @@ Tested the social media links in the footer | They should take the user to the h
     - When all of these steps have been followed the site will reload and the deployed link will appear. Although, this might take a few minutes.
     
 The live link can be found here: [Doggy Daycare](https://emeliehansson.github.io/milestone-p1-doggy-daycare/index.html).
+&nbsp;
 
 ## Credits
 - For general information and tips I have used these websites: [W3 Schools](https://www.w3schools.com/) and [Developer Mozilla](https://developer.mozilla.org/en-US/).
@@ -168,7 +177,6 @@ The live link can be found here: [Doggy Daycare](https://emeliehansson.github.io
 - The code to make the social media links, the media queries, the masonry structure in the gallery and footer was found from the CI [Love Running](https://emeliehansson.github.io/love-running/) Project.
 - The social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - The font style, Trispace, was found at [Google Fonts](https://fonts.google.com/).
-- Images were reduced in size with use of [Tiny Png](https://tinypng.com/).
 
 ### Media
 - The image on the header was found on [Pexels](https://www.pexels.com/sv-SE/).
