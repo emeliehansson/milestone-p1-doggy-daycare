@@ -55,7 +55,7 @@ h1, h2, h3 {
 
 #menu a {
     text-decoration: none;
-    color: #8AA69F;
+    color: #324A51;
 
 }
 
@@ -123,6 +123,10 @@ hr {
     padding: 5px;
     justify-content: center;
     margin: 5px;
+}
+
+.offers p {
+    color: #324A51;
 }
 
 .about {
